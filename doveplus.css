@@ -1,0 +1,6 @@
+/* Change the logo to La Dispute */
+.logo img {
+    	content: url(//i.pi.gy/Nk5L.png);
+        margin-top: 20px;
+        width: 350px!important
+}
