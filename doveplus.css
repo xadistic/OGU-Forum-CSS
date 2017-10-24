@@ -4,3 +4,37 @@
         margin-top: 20px;
         width: 350px!important
 }
+/* Change background to low poly scroll */
+.bgimage {
+     background: url("http://i.pi.gy/30QAp.png"); 
+	-moz-animation: bgscroll 70s infinite linear;
+	-ms-animation: bgscroll 70s infinite linear;
+	-o-animation: bgscroll 70s infinite linear;
+	-webkit-animation: bgscroll 70s infinite linear;
+    
+}
+
+::selection { background: #000000; }
+::-moz-selection { background: #000000; }
+::-webkit-selection { background: #000000; }
+
+@-webkit-keyframes bgscroll {
+    from {background-position: 0 0;}
+    to {background-position: -1100px 0;}
+}
+
+@-moz-keyframes bgscroll {
+    from {background-position: 0 0;}
+    to {background-position: -1100px 0;}
+}
+
+
+@-o-keyframes bgscroll {
+    from {background-position: 0 0;}
+    to {background-position: -1100px 0;}
+}
+
+@keyframes bgscroll {
+    from {background-position: 0 0;}
+    to {background-position: -1100px 0;}
+}
